@@ -185,6 +185,7 @@ new Swiper('.awards .swiper', {
   direction: 'horizontal', // 수평 슬라이드(기본값)
   loop: true, // 반복 재생 여부, 1 -> 2 -> 3 -> 4 -> 다시 1
   autoplay: true, // 자동 재생 여부
+  disableOnInteraction: false, // 클릭해도 멈추지 않고 재생
   slidesPerView: 5, // 한 번에 보여줄 슬라이드 개수(기본값: 1)
   spaceBetween: 30, // 슬라이드 사이 여백(간격) px
   navigation: { // 슬라이드 이전/다음 버튼 사용
@@ -193,6 +194,7 @@ new Swiper('.awards .swiper', {
   },
 });
 // document에서 찾아보기 : 클릭하면 멈추지 않고 계속 재생되는 방법 
+
 
 // 현재 연도 표시
 // 날짜 정보를 가진 js data 객체를 활용(js 기본 제공 객체: 여러 데이터들의 묶음)
